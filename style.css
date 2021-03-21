@@ -18,17 +18,23 @@ body {
     min-height: 20vh;
 }
 
-.container h1 {
-    font-size: 50px;
-    text-align: left;
+#quote {
+text-transform: capitalize;
+color: #0c0c0c;
+text-align: left;
+font-size: 30px;
+font-size: 50px;
+
 }
 
-.container p {
-    text-transform: captilize;
-    color: #ced0ce;
+#character {
+    text-transform: capitalize;
+    color: #292e29;
     text-align: right;
     font-style: italic;
     font-size: 30px;
+    font-size: 50px;
+    text-align: right;
 }
 /* 
  #img {
