@@ -73,7 +73,7 @@ function getCharacters(){
     let num = Math.floor(Math.random() * quotes.length)
     quote.innerHTML = `<span></span> ${quotes[num].quoteArr} <span></span>`;
     char.innerHTML = `<span></span> ${quotes[num].character}`;
-    images.innerHTML = `<img src=./images/${quotes[num].imageArr}`;
+    images.src=`./images/${quotes[num].imageArr}`;
    
 
 }
