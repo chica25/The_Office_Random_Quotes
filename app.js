@@ -18,21 +18,27 @@ let quotes = [
     },
 
     {
+        "quoteArr": '"I guess I underestimated you."',
+        "character": "Jan Levinson",
+        "imageArr" : "jan.jpg"
+    },
+
+    {
         "quoteArr": '"Who is Justice Beaver?"',
         "character": "Dwight Schrute",
         "imageArr" : "dwight.jpg"
     },
 
     {
-        "quoteArr": "'It's like I used to tell my wife. I do not apologize unless I think I’m wrong. And if you don’t like it you can leave. And I say the same thing to my current wife and I’ll say it to my next one, too.'",
-        "character": "Stanley Hudson",
+        "quoteArr": '"Did I Stutter?!"',
+        "character": 'Stanley Hudson',
         "imageArr": "stanley.jpg"
     },
 
     {
         "quoteArr": '"I hooked up with her on February 13th."',
         "character": "Ryan Howard",
-        "imageArr": "ryan.png"
+        "imageArr": "ryan.jpg"
     },
 
     {
@@ -75,18 +81,16 @@ let quotes = [
 
 const button = document.querySelector('#btn');
 const quoteArr = document.querySelector('#quote');
-const char = document.querySelector('#character');
+const char = document.querySelector('#character-name');
 const images = document.querySelector('#img')
-
 
 button.addEventListener('click', getCharacters);
 
-function getCharacters(){
+function getCharacters(){ 
     let num = Math.floor(Math.random() * quotes.length)
     quote.innerHTML = `${quotes[num].quoteArr}`;
-    char.innerHTML = `–– ${quotes[num].character}`;
-    images.src=`./images/${quotes[num].imageArr}`;
-   
+    char.innerHTML = `– ${quotes[num].character}`;
+    images.src=`./images/${quotes[num].imageArr}`;  
 
 }
 

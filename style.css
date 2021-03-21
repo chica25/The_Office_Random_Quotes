@@ -1,65 +1,74 @@
-body {
-    background-color: rgb(255, 255, 255);
-    min-height: 10vh;
+
+html {
+    font-family: 'Noto Sans', sans-serif;
+    font-family: 'Work Sans', sans-serif;
+    background-color: rgb(177, 226, 247);
     text-align: center;
-    padding: 100px;
 }
 
-#container {
-    background-color: #fff;
-    width: 80vh;
-    padding: 40px;
-    height: 55vh;
-    border:3px solid rgb(154, 209, 241);
+#title {
+    font-size: 32px;
+    font-weight: regular;
+    text-align: center;
+    color:black;
+    font-style: normal;
+    margin-top: 20px;
+    /* margin-bottom: 20px; */
+}
+
+.logo {
+    width: 600px;
+    height: 300px;
+}
+
+#img {
+    width: 600px;
+    height: 300px;
     border-radius: 10px;
-}
-
-#quote-text {
-    min-height: 20vh;
-    color: purple;
+    margin-top: 10px;
+    margin-bottom: 20px;
 }
 
 #quote {
-text-transform: capitalize;
-color: #0c0c0c;
-text-align: center;
-font-size: 60px;
+    color:rgb(4, 4, 4);
+    font-size: 18px;
+    /* margin-top: 20px; */
+    margin: center;
+  }
 
+#character-name {
+    color:rgb(0, 0, 0);
+    font-size: 14px;
+    text-align: 50px;
+    font-style: light;
+     margin-bottom: 0 auto;
 }
 
-#character {
-    text-transform: capitalize;
-    color: #4d4d4d;
-    text-align: right;
-    font-size: 60px;
-    text-align: center;
-}
-
-.title {
- font-size: 80px;
-  text-align: center;
-}
-
- #img {
-    width: 2000px;
-    height: 1000px;
-    outline: none;
+#btn-content {
+    color: rgb(247, 44, 98);
+    font-size: 14px;
+    margin: center;
+    font-style: light;
+    /* margin-bottom: 0 auto; */
 }
 
 #btn {
-    width:400px;
-    height:200px;;
-    margin-top: 30px;
-    font-size: 25px;
-    padding: 10px 20px;
-    background-color: rgb(120, 29, 180);
-    color: rgb(60, 182, 219);
-    text-transform: uppercase;
-    border-radius: 5px;
+    background-color: black;
+    color: white;
+    border-radius: 5px; 
     cursor: pointer;
+    outline: none;   
+    border: none;
+    padding: 15px;
+    text-align: center;
+    /* text-decoration: none; */
+    /* display: inline-block; */
+    margin-bottom: 10px;
+   
 }
 
-.btn:hover {
-    color: rgb(120, 29, 180);
-    background-color: rgb(60, 182, 219);
-}
+/* #btn:hover {
+    background-color: rgb(247, 44, 98);
+    color: white;
+    outline: none;  
+} */
