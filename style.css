@@ -1,11 +1,11 @@
 body {
-    background-color: beige;
+    background-color: rgb(255, 255, 255);
     min-height: 10vh;
     text-align: center;
     padding: 100px;
 }
 
-.container {
+#container {
     background-color: #fff;
     width: 80vh;
     padding: 40px;
@@ -14,41 +14,41 @@ body {
     border-radius: 10px;
 }
 
-.quote-text {
+#quote-text {
     min-height: 20vh;
+    color: purple;
 }
 
 #quote {
 text-transform: capitalize;
 color: #0c0c0c;
 text-align: center;
-font-size: 30px;
-font-size: 50px;
+font-size: 60px;
 
 }
 
 #character {
     text-transform: capitalize;
-    color: #292e29;
+    color: #4d4d4d;
     text-align: right;
-    font-style: italic;
-    font-size: 30px;
-    font-size: 50px;
-    text-align: right;
+    font-size: 60px;
+    text-align: center;
 }
 
-.logo-img {
-    width: 800px;
-    height: 400px;
-    display: flex;
+.title {
+ font-size: 80px;
+  text-align: center;
 }
 
  #img {
     width: 2000px;
     height: 1000px;
+    outline: none;
 }
 
 #btn {
+    width:400px;
+    height:200px;;
     margin-top: 30px;
     font-size: 25px;
     padding: 10px 20px;
@@ -59,7 +59,7 @@ font-size: 50px;
     cursor: pointer;
 }
 
-#btn:hover {
+.btn:hover {
     color: rgb(120, 29, 180);
     background-color: rgb(60, 182, 219);
 }
