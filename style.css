@@ -37,9 +37,15 @@ font-size: 50px;
     text-align: right;
 }
 
+.logo-img {
+    width: 800px;
+    height: 400px;
+    display: flex;
+}
+
  #img {
-    width: 400px;
-    height: 300px;
+    width: 2000px;
+    height: 1000px;
 }
 
 #btn {

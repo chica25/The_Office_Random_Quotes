@@ -6,15 +6,21 @@ let quotes = [
     },
 
     {
-        "quoteArr": "The worst thing about prison was the dementors",
-        "character": " Michael 'Prison Mike' Scott",
-        "imageArr" : "michael.jpg"
-    },
-
-    {
         "quoteArr": "How is it possible that in five years, I’ve had two engagements and only one chair?",
         "character": "Pam Beesley",
         "imageArr": "pam.jpg"
+    },
+
+    {
+        "quoteArr": "Actually",
+        "character": "Oscar Martinez",
+        "imageArr": "oscar.jpg"
+    },
+
+    {
+        "quoteArr": "Who is Justice Beaver?",
+        "character": "Dwight Schrute",
+        "imageArr" : "dwight.jpg"
     },
 
     {
@@ -24,9 +30,15 @@ let quotes = [
     },
 
     {
-        "quoteArr": "I love inside jokes. I hope to be a part of one someday.",
-        "character": "Michael Scott",
-        "imageArr": "michael.jpg"
+        "quoteArr": "I hooked up with her on February 13th.",
+        "character": "Ryan Howard",
+        "imageArr": "ryan.png"
+    },
+
+    {
+        "quoteArr": "Dinkin Flicka.",
+        "character": "Darryl Philbin",
+        "imageArr" : "darryl.jpg"
     },
 
     {
@@ -38,7 +50,7 @@ let quotes = [
     {
         "quoteArr": "From time to time I send Dwight faxes. From himself. From the future.",
         "character": "Jim Halpert",
-        "imageArr" : "jim.jpg"
+        "imageArr" : "jim.png"
     },
 
     {
@@ -48,15 +60,15 @@ let quotes = [
     },
 
     {
-        "quoteArr": "Pam, come on. 'I like your food?' Come on, stir the pot, stir the melting pot, Pam! Let's do it, let's get ugly, let's get real",
-        "character": "Michael Scott",
-        "imageArr" : "michael.jpg"
+        "quoteArr": "I can't control what I say to people. I spend the whole day talking.",
+        "character": "Kelly Kapoor",
+        "imageArr" : "kelly.jpg"
     },
 
     {
-        "quoteArr": "One day Michael came in and complained about a speed bump on the highway. I wonder who he ran over then.",
-        "character": "Jim Halpert",
-        "imageArr" : "jim.jpg"
+        "quoteArr": "I don't think Michael intended to punish me by putting Ryan back here with Kelly. But if he did intend that- Wow. Genius.",
+        "character": "Toby Flenderson",
+        "imageArr" : "toby.jpg"
     }
 ]
 
@@ -71,8 +83,8 @@ button.addEventListener('click', getCharacters);
 
 function getCharacters(){
     let num = Math.floor(Math.random() * quotes.length)
-    quote.innerHTML = `<span></span> ${quotes[num].quoteArr} <span></span>`;
-    char.innerHTML = `<span></span> ${quotes[num].character}`;
+    quote.innerHTML = `${quotes[num].quoteArr}`;
+    char.innerHTML = `${quotes[num].character}`;
     images.src=`./images/${quotes[num].imageArr}`;
    
 
